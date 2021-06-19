@@ -1,7 +1,58 @@
 body {
-  background-color: lightgreen;
-} 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgreen;
+    max-width: 100%;
+}
 
-h1 {
-    text-align: center
+h1, h2 {
+    background-color: white;
+    color: purple;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 0;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+h4 {
+    text-align: center;
+    margin: auto;
+    font-size: 20px
+}
+
+section #puppy {
+    background-color: white;
+    text-align: center;
+}
+
+
+section {
+    margin: 0 15px 0 15px;
+    font-size: 20px;
+    padding: 0 40px 0 40px;
+}
+
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#buttons button {
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+#buttons button:hover {
+    color: white;
+    background-color: black;
+}
+
+div p {
+    font-size: large;
 }
